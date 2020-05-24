@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    animation-name: sample;
+    animation-duration: 5s;
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes sample {
+    from {
+        background-color: tomato;        
+    }
+    to {
+        left: 400px;
+        top: 250px;
+       border-radius: 50%;
+       background-color: brown;
+    }
+        
+}
